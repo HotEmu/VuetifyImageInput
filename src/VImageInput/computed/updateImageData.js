@@ -30,7 +30,6 @@ export default function() {
 				context.fillRect(0, 0, imageWidth, imageHeight);
 			}
 			context.translate(croppingLeft, croppingTop);
-			context.scale(scaling, scaling);
 			if (rotated) {
 				context.translate(internalImageHeight, 0);
 				context.rotate(Math.PI / 2);
